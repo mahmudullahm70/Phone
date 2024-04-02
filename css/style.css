@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    height: 520px;
+    width: 15rem;
+    background-color: black;
+    border-radius: 30px;
+    position: relative;
+    top: 10rem;
+    left:30rem;
+}
+.hero{
+    height: 500px;
+    background-image: url(../image/nafiz.jpg);
+    /* background-color: aliceblue; */
+    width: 15rem;
+    border: 8px solid orange;
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    bottom: 15px;
+}
+
+.sub-hero-three{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 20px;
+    position: relative;
+    left:3px ;
+    bottom: 75px;
+}
+.sub-three{
+    height: 12px;
+    width: 12px;
+    border-radius: 12px;
+    background-color: rgb(151, 158, 163);
+    position: relative;
+    left:3px ;
+    top:3.5px;
+  
+}
+.child-one{
+    height: 20px;
+    width: 80%;
+    background-color: rgb(62, 56, 56);
+    border-radius: 10px;
+    margin: 30px;
+
+    text-align: center;
+}
+.child-one a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.sub-hero-one{
+    height: 80px;
+    width: 40%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 25px;
+}
+.sub-hero{
+    height: 80px;
+    width: 100%;
+    
+    margin: 12rem 5px 0;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.sub-hero i{
+    font-size:25px ;
+
+
+}
+.child-two{
+    color: rgb(64, 12, 235);
+    height: 40px;
+    width: 15%;
+    background-color: rgb(245, 231, 231);
+    border-radius: 10px;
+    text-align: center;
+}
+.child-three{
+    color: rgb(64, 12, 235);
+    height: 40px;
+    width: 15%;
+    background-color: rgb(245, 231, 231);
+    border-radius: 10px;
+    text-align: center;
+}
+.child-four{
+    color: rgb(246, 39, 39);
+    height: 40px;
+    width: 15%;
+    background-color: rgb(245, 231, 231);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sub-hero-two{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    
+    margin: 0 5px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.sub-hero-two i{
+    font-size: 25px;
+    
+}
+.child-five{
+    color: rgb(64, 12, 235);
+    height: 40px;
+    width: 15%;
+    background-color: rgb(245, 231, 231);
+    border-radius: 10px;
+    text-align: center;
+}
+.child-six{
+    color: rgb(253, 252, 253);
+    height: 40px;
+    width: 15%;
+    background-color: rgba(232, 34, 20, 0.697);
+    border-radius: 10px;
+    text-align: center;
+}
+.child-seven{
+    color: rgb(251, 251, 253);
+    height: 40px;
+    width: 15%;
+    background-color: rgb(66, 18, 188);
+    border-radius: 10px;
+    text-align: center;
+}
